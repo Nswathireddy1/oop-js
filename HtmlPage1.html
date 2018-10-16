@@ -1,0 +1,14 @@
+﻿<script type="text/javascript">
+    function Employee(firstName, lastName) {
+        this.firstName = firstName;//property of the emp
+        this.lastName = lastName;
+        this.getFullName = function () {//method name
+            return this.firstName + " " +this. lastName;
+        }
+    }
+    var employee = new Employee("swathi", "reddy");//constructer
+    document.write("firstName=" + employee.firstName+ "<br/>");
+    document.write("lastName=" + employee.lastName+ "<br/>");
+    document.write("FullName=" + employee.getFullName() + "<br/>");
+    </script>
+<!--by using constructer function in objects-->
